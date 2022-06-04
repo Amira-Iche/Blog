@@ -8,8 +8,18 @@
   color: #333;
 }
 
+ svg {
+  fill: #848d95;
+  padding-right: 10px;
+}
+
+ul {
+  margin-top: 3rem;
+}
+
 li{
   list-style-type: none;
+  margin: 20px 0;
 }
 a{
   text-decoration: none;
@@ -19,13 +29,16 @@ header{
   display: flex;
     position: absolute;
     left: 0;
-    background: #313746;
+    background: #0D2432;
     height: 100%;
-    align-items: center;
+    align-items: top;
 } 
 .navbar {
-  padding:0 20px;
+  padding: 20px;
 } 
 .Navigation li a{
+  color: #848d95;
+}
+.Navigation li a:hover{
   color: #fff;
 }
